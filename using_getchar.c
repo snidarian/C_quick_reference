@@ -26,6 +26,22 @@ int main()
         c = getchar();
     }
 
+    
+    /*
+    c = getchar();
+is an expression and has a value, which is the value of the left hand side after the assignment.
+This means that a assignment can appear as part of a larger expression. If the assignment of a
+character to c is put inside the test part of a while loop, the copy program can be written this
+way:
+    */
+    
+    while ((c = getchar()) != EOF)
+        putchar(c);
+    
+    
+    
+    
+    
 }
 
 
