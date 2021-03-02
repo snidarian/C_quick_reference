@@ -22,8 +22,6 @@ Generally, the getopt() function is called from inside of a loop’s conditional
 The loop terminates when the getopt() function returns -1. A switch statement is then executed with the value returned by getopt() function.
 
 A second loop is used to process the remaining extra arguments that cannot be processed in the first loop.
-
-
 */
 
 
@@ -69,9 +67,5 @@ for(; optind < argc; optind++)
 
 return 0;
 }
-
-
-
-
 
 
