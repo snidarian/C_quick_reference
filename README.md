@@ -5,19 +5,19 @@ Quick reference sheet for various stdlib functions and libraries in C language
 
 C printf format specifiers
 
-Data type |	Format | Specifier
+Data type |   type   |	Format Specifier
 ----------|--------|-----------
 Integer |	short signed |	%d or %I
-short | unsigned |	%u
-long | signed |	%ld
-long | unsigned |	%lu
-unsigned | hexadecimal  |	%x
-unsigned | octal  |	%o
+Integer | short | unsigned |	%u
+Integer | long | signed |	%ld
+Integer | long | unsigned |	%lu
+Integer | unsigned | hexadecimal  |	%x
+Integer | unsigned | octal  |	%o
 Real |	float  |	%f
-double | 	%lf
+Real | double | 	%lf
 Character |	signed character | 	%c
-unsigned | character |	%c
-String 	|	%s
+Character | unsigned character |	%c
+String 	|	  | %s
 
 
 
