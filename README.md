@@ -4,7 +4,9 @@ Quick reference sheet for various stdlib functions and libraries in C language
 
 
 C printf format specifiers
+
 Data type |	Format | Specifier
+----------|--------|-----------
 Integer |	short signed |	%d or %I
 short | unsigned |	%u
 long | signed |	%ld
